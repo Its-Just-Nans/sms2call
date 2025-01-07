@@ -1,0 +1,11 @@
+[book]
+authors = [
+    "n4n5 <its.just.n4n5@gmail.com>",
+]
+language = "en"
+multilingual = false
+src = "src"
+title = "Sms2Call documentation"
+
+[build]
+build-dir = "../dist/"
