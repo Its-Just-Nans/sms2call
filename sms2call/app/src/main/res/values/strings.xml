@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sms2Call</string>
+    <string name="menu_action_check">Check authorization</string>
+    <string name="menu_action_reset">Reset data</string>
+    <string name="placeholder_phone">0605040302</string>
+    <string name="button_call">Call</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_delete">Delete</string>
+    <string name="sms">Sms</string>
+    <string name="phone">Phone</string>
+</resources>

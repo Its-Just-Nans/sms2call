@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dev.n4n5.sms2call.MainActivity">
+    <item
+        android:id="@+id/menu_check"
+        android:orderInCategory="100"
+        android:title="@string/menu_action_check" />
+    <item
+        android:id="@+id/menu_reset"
+        android:orderInCategory="100"
+        android:title="@string/menu_action_reset" />
+</menu>

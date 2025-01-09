@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+        android:drawable="@drawable/baseline_void"
+        android:gravity="center"
+        android:bottom="500dp"
+        android:right="500dp"
+        android:width="1dp"
+        android:height="1dp"
+    >
+    </item>
+    <item
+        android:drawable="@drawable/baseline_add_comment_24"
+        android:gravity="center"
+        android:top="75dp"
+        android:right="75dp"
+        android:width="120dp"
+        android:height="120dp"
+    >
+    </item>
+    <item
+        android:drawable="@drawable/baseline_phone_forwarded_24"
+        android:gravity="center"
+        android:bottom="75dp"
+        android:left="75dp"
+        android:width="120dp"
+        android:height="120dp"
+    >
+    </item>
+</layer-list>
