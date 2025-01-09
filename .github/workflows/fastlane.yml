@@ -1,0 +1,16 @@
+name: Fastlane check
+
+on:
+    push:
+        branches: ["main"]
+
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Validate Fastlane Supply Metadata
+              uses: ashutoshgngwr/validate-fastlane-supply-metadata@v2.1.0
