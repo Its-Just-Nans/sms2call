@@ -35,7 +35,7 @@ class CallMaker (constructorContext: Context) {
         writeLog( "getPhoneNumber(): '$sender' sent '$message'")
         val allCallInfo = CallInfo.getAllCallInfo(context)
         for (oneCallInfo in allCallInfo) {
-            if(message.lowercase().startsWith(oneCallInfo.smsMessage)) {
+            if(message.lowercase().startsWith(oneCallInfo.smsMessage.lowercase())) {
                 return oneCallInfo.phoneNumber
             }
         }
