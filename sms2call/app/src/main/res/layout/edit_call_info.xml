@@ -22,7 +22,9 @@
         <EditText
             android:id="@+id/edit_call_info_phone"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:height="48dp"
+            android:hint="@string/hint_phone">
         </EditText>
     </LinearLayout>
     <LinearLayout
@@ -42,7 +44,9 @@
         <EditText
             android:id="@+id/edit_call_info_sms"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:height="48dp"
+            android:hint="@string/hint_sms">
         </EditText>
     </LinearLayout>
 </LinearLayout>

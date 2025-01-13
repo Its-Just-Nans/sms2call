@@ -10,7 +10,7 @@
         android:id="@+id/button"
         android:layout_width="162dp"
         android:layout_height="139dp"
-        android:text="Quitter"
+        android:text="@string/button_activity_call"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

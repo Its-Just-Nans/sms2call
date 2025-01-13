@@ -13,7 +13,7 @@ class CallMaker (constructorContext: Context) {
     private var context: Context = constructorContext
 
 
-    private fun writeLog(logMsg: String){
+    fun writeLog(logMsg: String){
         Log.w("myApp", logMsg)
     }
 
@@ -56,4 +56,6 @@ class CallMaker (constructorContext: Context) {
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
         context.startActivity(intent)
     }
+
+
 }

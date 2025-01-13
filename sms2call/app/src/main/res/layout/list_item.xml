@@ -39,16 +39,19 @@
             android:id="@+id/button_call"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:height="48dp"
             android:text="@string/button_call" />
         <Button
             android:id="@+id/button_edit"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:height="48dp"
             android:text="@string/button_edit" />
         <Button
             android:id="@+id/button_delete"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:height="48dp"
             android:text="@string/button_delete" />
     </LinearLayout>
 </LinearLayout>
