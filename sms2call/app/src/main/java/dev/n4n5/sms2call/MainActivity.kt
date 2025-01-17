@@ -1,7 +1,9 @@
 package dev.n4n5.sms2call
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
 import android.os.PowerManager
 import android.view.Menu
@@ -66,6 +68,12 @@ class MainActivity : AppCompatActivity() {
                     .setNegativeButton("No", null)
                     .show()
 
+                true
+            }
+            R.id.menu_about -> {
+                startActivity(Intent(Intent.ACTION_VIEW).apply {
+                    data = Uri.parse("https://sms2call.n4n5.dev")
+                })
                 true
             }
             else -> super.onOptionsItemSelected(item)

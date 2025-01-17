@@ -11,4 +11,5 @@
     <string name="hint_sms">Add sms</string>
     <string name="hint_phone">Add phone number</string>
     <string name="button_activity_call">Return</string>
+    <string name="menu_action_about">About</string>
 </resources>

@@ -9,4 +9,8 @@
         android:id="@+id/menu_reset"
         android:orderInCategory="100"
         android:title="@string/menu_action_reset" />
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:title="@string/menu_action_about" />
 </menu>
