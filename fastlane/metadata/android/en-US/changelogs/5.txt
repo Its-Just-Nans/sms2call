@@ -1,0 +1,1 @@
+Do the sms check in lowercase
