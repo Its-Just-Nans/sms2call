@@ -17,3 +17,5 @@ gradlew.bat
 .externalNativeBuild
 .cxx
 local.properties
+
+.kotlin/
