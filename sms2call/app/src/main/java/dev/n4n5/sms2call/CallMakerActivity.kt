@@ -1,12 +1,10 @@
 package dev.n4n5.sms2call
 
 import android.content.Intent
-import android.net.sip.SipErrorCode.TIME_OUT
 import android.os.Bundle
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import dev.n4n5.sms2call.databinding.ActivityCallBinding
-import java.util.logging.Handler
 
 
 class CallMakerActivity : AppCompatActivity() {
