@@ -1,6 +1,7 @@
 package dev.n4n5.sms2call
 
 import android.app.Activity
+import android.provider.Settings.Global.getString
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
@@ -17,9 +18,11 @@ class CustomListAdapter(private val context: Activity, private val infos: ArrayL
         val currentCallInfo = infos[position]
         rowView.phoneNumber.text = currentCallInfo.smsMessage
         rowView.smsMessage.text =  currentCallInfo.phoneNumber
+        rowView.buttonCall.text = context.resources.getString(R.string.call_placeholder, position+1);
         rowView.buttonCall.setOnClickListener { _ ->
             CallMaker(context).makeCallActivity("button call", currentCallInfo.smsMessage)
         }
+        rowView.buttonEdit.text = context.resources.getString(R.string.edit_placeholder, position+1);
         rowView.buttonEdit.setOnClickListener { _ ->
             val bindings = EditCallInfoBinding.inflate(context.layoutInflater)
             bindings.editCallInfoSms.setText(currentCallInfo.smsMessage)
@@ -35,6 +38,7 @@ class CustomListAdapter(private val context: Activity, private val infos: ArrayL
                 .setNegativeButton("Cancel", null)
                 .show()
         }
+        rowView.buttonDelete.text = context.resources.getString(R.string.delete_placeholder, position+1);
         rowView.buttonDelete.setOnClickListener { _ ->
             AlertDialog.Builder(context)
                 .setMessage("Are you sure?")

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="tomato">#FF6347</color>
-    <color name="orange_red">#FF4500</color>
-    <color name="dark_orange">#FF8C00</color>
-    <color name="orange">#FFA500</color>
+    <color name="tomato">#C31F01</color>
+    <color name="orange_red">#B13000</color>
+    <color name="dark_orange">#935100</color>
+    <color name="orange">#ad5801</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
