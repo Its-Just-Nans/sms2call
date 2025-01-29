@@ -2,8 +2,10 @@
 <resources>
     <color name="tomato">#C31F01</color>
     <color name="orange_red">#B13000</color>
-    <color name="dark_orange">#935100</color>
-    <color name="orange">#ad5801</color>
+    <color name="dark_orange">#BD6315</color>
+    <color name="orange">#B6611D</color>
+    <color name="light_orange">#FF8300</color>
+    <color name="light_dark_orange">#A86000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

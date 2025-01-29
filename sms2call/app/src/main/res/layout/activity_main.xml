@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_margin="4dp"
-            android:text="Add"
+            android:text="@string/add"
             android:textAllCaps="false"
             app:layout_constraintBottom_toTopOf="@+id/idLVLanguages"
             app:layout_constraintEnd_toEndOf="parent"

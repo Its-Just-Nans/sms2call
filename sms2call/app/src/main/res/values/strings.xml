@@ -9,6 +9,7 @@
     <string name="edit_placeholder">Edit %1$d</string>
     <string name="button_delete">Delete</string>
     <string name="delete_placeholder">Delete %1$d</string>
+    <string name="add">Add</string>
     <string name="sms">Sms</string>
     <string name="phone">Phone</string>
     <string name="hint_sms">Add sms</string>
