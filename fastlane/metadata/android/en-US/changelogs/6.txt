@@ -1,1 +1,1 @@
-Remove dependency metada in builds
+Remove dependency metadata in builds
