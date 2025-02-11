@@ -4,56 +4,73 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="bottom">
         <TextView
             android:id="@+id/phone_number"
-            android:layout_width="120dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
             android:minHeight="?android:attr/listPreferredItemHeightSmall"
             android:paddingStart="?android:attr/listPreferredItemPaddingStart"
             android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            />
         <TextView
             android:id="@+id/sms_message"
-            android:layout_width="151dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
             android:minHeight="?android:attr/listPreferredItemHeightSmall"
             android:paddingStart="?android:attr/listPreferredItemPaddingStart"
             android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        >
 
         <Button
             android:id="@+id/button_call"
-            android:layout_width="139dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:height="48dp"
-            android:text="@string/button_call" />
+            android:layout_weight=".40"
+            android:text="@string/button_call"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
 
         <Button
             android:id="@+id/button_edit"
-            android:layout_width="117dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:height="48dp"
-            android:text="@string/button_edit" />
+            android:layout_weight=".40"
+            android:text="@string/button_edit"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
 
         <Button
             android:id="@+id/button_delete"
-            android:layout_width="123dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:height="48dp"
-            android:text="@string/button_delete" />
+            android:layout_weight=".40"
+            android:text="@string/button_delete"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
     </LinearLayout>
 </LinearLayout>
