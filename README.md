@@ -1,6 +1,6 @@
 # sms2call
 
-Make a call when receiving a defined SMS
+Call a configured number when an SMS with specific content is received
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
