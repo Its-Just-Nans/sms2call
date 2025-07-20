@@ -1,1 +1,1 @@
-Make a call when receiving a defined SMS
+<i>Sms2Call</i> is a app to automatically call a configured number when an SMS with specific content is received.
